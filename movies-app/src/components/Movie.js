@@ -1,13 +1,9 @@
 import React from "react";
 
-function Movie(props) {
-  const { title, year } = props;
-  const movieTitle = title ? title.name : "Unknown Title";
+function Movie({ title, year }) {
 
   return (
-    <div className="movie-title-and-year">
-      <p><i>{movieTitle} ({year})</i></p>
-    </div>
+    <p><i>{title},</i> {year}</p>
   );
 }
 
