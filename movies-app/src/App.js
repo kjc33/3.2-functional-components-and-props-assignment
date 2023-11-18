@@ -1,7 +1,10 @@
+import Container from './components/Container';
 import React from 'react'
 
-export default function App() {
+function App() {
   return (
-    <div>App</div>
+    <Container siteTitle="Movie app"/>
   )
 }
+
+export default App;
